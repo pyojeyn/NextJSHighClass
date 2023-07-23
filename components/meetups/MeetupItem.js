@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import Card from "../ui/Card";
 import classes from "./MeetupItem.module.css";
-import { route } from "next/dist/next-server/server/router";
+import { route } from "next/router";
 
 function MeetupItem(props) {
   const router = useRouter(); // 라우터 객체 받기
